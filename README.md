@@ -1,4 +1,4 @@
-# Sensor de Luminosidade - 3 Níveis com Arduino
+# Sensor de Luminosidade de 3 Níveis com Arduino
 
 Este projeto consiste em um sistema de medição de luminosidade usando um "LDR (sensor de luz)", que ativa diferentes LEDs e um buzzer de acordo com a intensidade da luz no ambiente. Ele simula um semáforo de alerta: verde (ok), amarelo (atenção), e vermelho com buzzer (luz forte demais).
 
@@ -76,7 +76,7 @@ void loop()
 {
 Serial.println (valorluz);
 valorluz = analogRead(ldrpin);
-  if (valorluz <= 600) {
+ if (valorluz <= 600) {
     digitalWrite(ledPinVerd, HIGH);
   }else{
        digitalWrite(ledPinVerd, LOW);
