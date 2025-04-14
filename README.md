@@ -1,3 +1,14 @@
+# 🧑‍💻 Integrantes do Grupo
+-Gabriel Akira           RM:565191           GitHub: Gakira06
+
+-Gustavo Francisco       RM:561820           GitHub:
+
+-José Rafael             RM:561849           GitHub: ZekiosZ
+
+-Mauro Carlos            RM:556645           GitHub: DevMauroMaia
+
+---
+
 # Sensor de Luminosidade de 3 Níveis com Arduino
 
 Este projeto consiste em um sistema de medição de luminosidade usando um "LDR (sensor de luz)", que ativa diferentes LEDs e um buzzer de acordo com a intensidade da luz no ambiente. Ele simula um semáforo de alerta: verde (ok), amarelo (atenção), e vermelho com buzzer (luz forte demais).
