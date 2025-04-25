@@ -39,9 +39,9 @@ delay(100);
 if (valorluz > 801) { ///se o valor da luz for maior que 801
     
     digitalWrite(ledPinVer, HIGH); /// Irá ligar o LED vermelho
-    digitalWrite(buzzer, HIGH); 
+    tone(buzzer, 500);  ///liga o buzzer com a frequencia de 500hz
     delay(3000);
-    digitalWrite(buzzer, LOW); /// Irá tocar a buzina por 3 segundos e logo depois desligar, se continuar o LED vermelho continuar ligado a buzina irá tocar de novo
+    noTone(buzzer); /// Irá tocar a buzina por 3 segundos e logo depois desligar, se continuar o LED vermelho continuar ligado a buzina irá tocar de novo
   
     }else {
         digitalWrite(ledPinVer, LOW);
